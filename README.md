@@ -1,3 +1,11 @@
+This fork adds two modifications of [build-arch-gce](build-arch-gce) script
+with `btrfs` on root of the file system and with subvolumes:
+
+- [build-arch-gce-btrfs](build-arch-gce-btrfs)
+- [build-arch-gce-btrfs-subvol](build-arch-gce-btrfs-subvol)
+
+Use `diff` to review the changes and feel free to adjust for your needs.
+
 ## Arch Linux Image Builder for Google Compute Engine
 
 This project provides a script that creates an [Arch
